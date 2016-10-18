@@ -6,17 +6,49 @@
 Welcome to SimpleNoteDocs's documentation!
 ==========================================
 
-Contents:
+Simple Note is a plugin for taking a note inside Unity Editor.
 
-.. toctree::
-   :maxdepth: 2
+Create a Global Note
+--------------------
 
+- Open Notes window by click Window/SimpleNote/Show Notes
 
+.. image:: /img/SimpleNoteGlobalShow.PNG
 
-Indices and tables
-==================
+- Click button Add a Note
+- Click button 'e' to Edit
+- To remove, click button '-'
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. image:: /img/SimpleNoteGlobal.PNG
 
+Create a Note to GameObject
+---------------------------
+
+- Select GameObject which want to add a note
+- Right click the GameObject on hierarchy and Select SimpleNote/Add or Remove Note
+
+.. image:: /img/SimpleNoteAdd.PNG
+
+- Then a new note appears in Scene View.
+- To Edit note, just click button on the top right of Note Rectangle (Right after Title)
+
+.. image:: /img/SimpleNoteGameObject.PNG
+
+Add a Note to Class and Variable
+--------------------------------
+
+- Open Script you want to add Note
+- If you want to add note at the Main Class, write Attribute ``[SimpleNote]`` before declare class.
+- If you want to add note at Variable, write Attribute ``[HelpBox("Note", MessageType)]`` before declare variabel
+
+.. image:: /img/SimpleNoteClassImplementation.PNG
+
+.. image:: /img/SimpleNoteClass.PNG
+
+Simple Note Preferences
+-----------------------
+
+Windows : Edit/Preferences/Simple Note
+Mac : Unity/Preferences/Simple Note
+
+.. image:: /img/SimpleNotePreference.PNG
