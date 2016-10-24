@@ -16,8 +16,9 @@ Create a Global Note
 .. image:: /img/SimpleNoteGlobalShow.PNG
 
 - Click button Add a Note
-- Click button 'e' to Edit
-- To remove, click button '-'
+- Click text to Edit
+- click button 'x' to remove
+- click button '-' to minimize
 
 .. image:: /img/SimpleNoteGlobal.PNG
 
@@ -30,11 +31,11 @@ Create a Note to GameObject
 .. image:: /img/SimpleNoteAdd.PNG
 
 - Then a new note appears in Scene View.
-- To Edit note, just click button on the top right of Note Rectangle (Right after Title)
+- Click text to edit
 
 .. image:: /img/SimpleNoteGameObject.PNG
 
-Add a Note to Class and Variable
+Add a Note to Script Component and Variable
 --------------------------------
 
 - Open Script you want to add Note
@@ -49,6 +50,7 @@ Simple Note Preferences
 -----------------------
 
 Windows : Edit/Preferences/Simple Note
+
 Mac : Unity/Preferences/Simple Note
 
 .. image:: /img/SimpleNotePreference.PNG
